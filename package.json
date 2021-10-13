@@ -1,0 +1,20 @@
+{
+  "name": "09-calendar-app-backend",
+  "version": "1.0.0",
+  "description": "Backend calendar app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jonathan Navas",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.10"
+  }
+}

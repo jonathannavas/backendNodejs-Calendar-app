@@ -100,7 +100,9 @@ const reNewToken = async (req, res = response) => {
 
     res.status(201).json({
         ok: true,
-        token
+        token,
+        uid,
+        name
     });
  
 }
